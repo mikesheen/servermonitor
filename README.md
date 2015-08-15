@@ -8,6 +8,8 @@ servermonitor is a small project utilising Python, PHP and javascript to provide
 For my original purposes, I had the webserver serving the HTTP and the server serving the json on separate machines, so that is why I chose to separate the two.  This project was made to monitor the CPU and bandwidth usage of a game server in real time, and I didn't want the game server running a web server, so the lightweight Tornado Python module was chosen.
 
 Live example: https://www.sheen.id.au/monitor/
+
+
 Example image: ![alt tag](https://raw.github.com/mikesheen/servermonitor/master/sampleimage.png)
 
 ## Prerequisites ##
