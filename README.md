@@ -18,7 +18,7 @@ It depends on following:
 * The Python module psutil (https://github.com/giampaolo/psutil)
 * The javascript library smoothie charts (http://smoothiecharts.org/)
 
-We also assume you have a web server, such as Apache which can server up HTML and PHP.
+We also assume you have a web server, such as Apache which can serve up HTML and PHP - note that whilst I am using PHP in this example, it can also be simply HTML - there is no actual PHP - the code running on my live site that I produced this Git from does have PHP which does various unrelated stuff, so me being lazy I just ripped out the irrelevant code and was left with no actual PHP.
 
 ## Installation ##
 Copy the www folder contents to your webserver folder.
