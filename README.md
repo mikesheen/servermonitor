@@ -4,10 +4,11 @@ servermonitor is a small project to provide a few simple web graphs showing serv
 ## About ##
 servermonitor is a small project utilising Python, PHP and javascript to provide a few simple graphs on CPU and bandwidth usage.  It works by using Python as a webserver to serve json encoded information, and then the javascript to product animated graphs based on that data.
 
+
 For my original purposes, I had the webserver serving the HTTP and the server serving the json on separate machines, so that is why I chose to separate the two.  This project was made to monitor the CPU and bandwidth usage of a game server in real time, and I didn't want the game server running a web server, so the lightweight Tornado Python module was chosen.
 
-Example image: ![alt tag](https://raw.github.com/mikesheen/servermonitor/master/sampleimage.png)
 Live example: https://www.sheen.id.au/monitor/
+Example image: ![alt tag](https://raw.github.com/mikesheen/servermonitor/master/sampleimage.png)
 
 ## Prerequisites ##
 It depends on following:
