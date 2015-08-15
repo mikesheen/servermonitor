@@ -84,7 +84,7 @@ sbandwidthsmoothie.streamTo(document.getElementById("sbandwidthcanvas"), 1000);
 
 setInterval(function() {				
 	$.ajax({
-	  url: "https://www.sheen.id.au:83/monitor",
+	  url: "https://www.sheen.id.au:82/monitor",
 	  dataType: 'jsonp',
 	  async: true,
 	  cache: false,
