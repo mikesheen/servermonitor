@@ -27,12 +27,18 @@ Run the Python script servermonitor.py using the following:
 ```
 /usr/bin/python servermonitor.py 82
 ```
-Note the port number to listen to is passed as a parameter - in this example I'm using port 82.  This is the port the Python webserver will server the json up on.
+Note the port number to listen to is passed as a parameter - in this example I'm using port 82.  This is the port the Python webserver will serve the json up on.
 
 You can check the json being served using a browser and visiting the :PORT/monitor addess - eg:
 ```
 https://sheen.id.au:82/monitor
 ```
+
+You should see something like this:
+```
+{"rx": 0.2744903564453125, "tx": 0.9374618530273438, "cpu03": 58.0, "cpu02": 26.0, "cpu01": 7.1, "cpu00": 23.2, "cpu07": 1.0, "cpu06": 0.0, "cpu05": 21.2, "cpu04": 4.1}
+```
+
 
 Now you'll need to edit the index.php to make it look at your Python service for the json - in the code look for the following line and replace it with your own url.
 ```
