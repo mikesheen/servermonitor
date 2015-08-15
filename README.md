@@ -31,12 +31,12 @@ Note the port number to listen to is passed as a parameter - in this example I'm
 
 You can check the json being served using a browser and visiting the :PORT/monitor addess - eg:
 ```
-https://sheen.id.au:83/monitor
+https://sheen.id.au:82/monitor
 ```
 
-Now you'll need to edit the index.php to make it look at your Python service for the json - in the code look for the following line and replace it with your own.
+Now you'll need to edit the index.php to make it look at your Python service for the json - in the code look for the following line and replace it with your own url.
 ```
-url: "https://www.sheen.id.au:83/monitor"
+url: "https://www.sheen.id.au:82/monitor"
 ```
 
 With that done, you can now visit your front-end web server to view the graphs.
